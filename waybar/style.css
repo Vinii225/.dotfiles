@@ -13,6 +13,7 @@ window#waybar {
     color: #cdd6f4;
     transition-property: background-color;
     transition-duration: 0.5s;
+    margin: 5px 5px 0px 0px;
 }
 
 #workspaces button {
@@ -34,11 +35,13 @@ window#waybar {
 #pulseaudio {
     padding: 0 10px;
     color: #ffffff;
-    margin: 0 2px;
+    margin: 0 5px;
 }
 
 #clock {
     background-color: #64727D;
+    padding: 0 15px;
+    font-weight: bold;
 }
 
 #battery {
@@ -61,4 +64,16 @@ window#waybar {
 #pulseaudio {
     background-color: #f1c40f;
     color: #000000;
+}
+
+#pulseaudio.muted {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+#custom-power {
+    background-color: #e74c3c;
+    color: #ffffff;
+    margin-right: 5px;
+    padding: 0 10px
 }
