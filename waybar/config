@@ -6,7 +6,7 @@
     
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "clock", "custom/power"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "clock", "battery", "custom/power"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -31,42 +31,42 @@
         "max-length": 50
     },
     
-    "clock": {
-        "format": " {:%H:%M • %d %b}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "interval": 1
-    },
-    
-    "cpu": {
-        "format": "CPU {usage}%",
-        "tooltip": false,
-        "interval": 1
-    },
-    
-    "memory": {
-        "format": " RAM {used:0.1f}G - ({percentage}%)",
-        "interval": 1
-    },
-    
-    "battery": {
-        "format": "BAT {capacity}%",
-        "format-charging": "BAT {capacity}% (charging)",
-        "format-plugged": "BAT {capacity}% (plugged)"
-    },
-    
-    "network": {
-        "format-wifi": "WIFI {essid}",
-        "format-ethernet": "ETH connected",
-        "format-disconnected": "NO NET",
-        "tooltip-format": "{ifname} via {gwaddr}"
-    },
-  
     "pulseaudio": {
         "format": "VOL {volume}%",
         "format-muted": "MUTED",
         "on-click": "pamixer --toggle-mute",
         "on-scroll-up": "pamixer -i 5",
         "on-scroll-down": "pamixer -d 5"
+    },
+
+    "network": {
+        "format-wifi": "WIFI {essid}",
+        "format-ethernet": "ETH connected",
+        "format-disconnected": "NO NET",
+        "tooltip-format": "{ifname} via {gwaddr}"
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false,
+        "interval": 1
+    },
+
+    "memory": {
+        "format": " {used:0.1f}G ({percentage}%)",
+        "interval": 1
+    },
+    
+    "clock": {
+        "format": " {:%H:%M • %d %b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "interval": 1
+    },
+
+    "battery": {
+        "format": "BAT {capacity}%",
+        "format-charging": "BAT {capacity}% (charging)",
+        "format-plugged": "BAT {capacity}% (plugged)"
     },
 
      "custom/power": {
