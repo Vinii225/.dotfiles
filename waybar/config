@@ -60,13 +60,31 @@
     "clock": {
         "format": " {:%H:%M • %d %b}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "interval": 1
+        "interval": 60,
+        "on-click": "exec gsimplecal"
     },
 
     "battery": {
-        "format": "BAT {capacity}%",
-        "format-charging": "BAT {capacity}% (charging)",
-        "format-plugged": "BAT {capacity}% (plugged)"
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": "󱟠 {capacity}%",
+        "format-icons": {
+            "10": "󰁺",
+            "20": "󰁻",
+            "30": "󰁼",
+            "40": "󰁽",
+            "50": "󰁾",
+            "60": "󰁿",
+            "70": "󰂀",
+            "80": "󰂁",
+            "90": "󰂂",
+            "100": "󰁹"
+        },
+        "interval": 30
     },
 
      "custom/power": {

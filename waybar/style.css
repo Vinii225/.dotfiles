@@ -55,7 +55,7 @@ window#waybar {
 /* CPU */
 #cpu {
     background-color: #9b59b6;
-    
+
 }
 
 /* Memória RAM */
@@ -72,12 +72,20 @@ window#waybar {
 /* Bateria */
 #battery {
     background-color: #2ecc71;
-    color: #000000;
+}
+
+/* Bateria em 30% */
+#battery.warning {
+    background-color: #f39c12;
+}
+
+/* Bateria em 10% */
+#battery.critical {
+    background-color: #e74c3c;
 }
 
 /* Custom power off button style */
 #custom-power {
     background-color: #e74c3c;
-    color: #ffffff;
     padding: 0 10px;
 }
