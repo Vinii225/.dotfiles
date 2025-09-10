@@ -70,7 +70,7 @@
     },
 
      "custom/power": {
-        "format": "⏻",
+        "format": "",
         "tooltip": "Power Menu",
         "on-click": "systemctl poweroff",
         "on-click-right": "systemctl reboot",
