@@ -1,8 +1,8 @@
-# 🚀 Dotfiles - Configuração Pessoal
+# Dotfiles - Configuração Pessoal
 
 Configurações do meu ambiente de desenvolvimento Linux com Hyprland + Waybar.
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 .dotfiles/
@@ -16,27 +16,27 @@ Configurações do meu ambiente de desenvolvimento Linux com Hyprland + Waybar.
         └── config            # Configuração do calendário
 ```
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
-- **🪟 Hyprland** - Compositor/Window Manager Wayland
-- **📊 Waybar** - Barra de status customizável
-- **📅 gsimplecal** - Calendário popup
-- **🎨 Font Awesome** - Ícones na interface
-- **🔤 JetBrainsMono Nerd Font** - Fonte principal e ícones
+- ** Hyprland** - Compositor/Window Manager Wayland
+- ** Waybar** - Barra de status customizável
+- ** gsimplecal** - Calendário popup
+- ** Font Awesome** - Ícones na interface
+- ** JetBrainsMono Nerd Font** - Fonte principal e ícones
 
-## ⚡ Funcionalidades
+##  Funcionalidades
 
 ### Waybar
 
-- 🔊 **Volume** com controle por scroll
-- 🌐 **Network** status WiFi/Ethernet
-- ⚡ **CPU** usage com ícone personalizado
-- 💾 **RAM** usage e informações
-- 🕐 **Relógio** com calendário clicável
-- 🔋 **Bateria** com indicadores visuais
-- ⚡ **Power** button para desligar
+-  **Volume** com controle por scroll
+-  **Network** status WiFi/Ethernet
+-  **CPU** usage com ícone personalizado
+-  **RAM** usage e informações
+-  **Relógio** com calendário clicável
+-  **Bateria** com indicadores visuais
+-  **Power** button para desligar
 
-## 🚀 Instalação
+## Instalação
 
 ```bash
 # Clone o repositório
