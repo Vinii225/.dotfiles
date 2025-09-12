@@ -18,11 +18,11 @@ Configurações do meu ambiente de desenvolvimento Linux com Hyprland + Waybar.
 
 ##  Tecnologias Utilizadas
 
-- ** Hyprland** - Compositor/Window Manager Wayland
-- ** Waybar** - Barra de status customizável
-- ** gsimplecal** - Calendário popup
-- ** Font Awesome** - Ícones na interface
-- ** JetBrainsMono Nerd Font** - Fonte principal e ícones
+- **Hyprland** - Compositor/Window Manager Wayland
+- **Waybar** - Barra de status customizável
+- **gsimplecal** - Calendário popup
+- **Font Awesome** - Ícones na interface
+- **JetBrainsMono Nerd Font** - Fonte principal e ícones
 
 ##  Funcionalidades
 
